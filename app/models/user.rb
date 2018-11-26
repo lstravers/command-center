@@ -5,4 +5,8 @@ class User < ApplicationRecord
          :recoverable, :rememberable, :validatable
   has_secure_token :auth_token
   has_secure_password
+
+  # user_signed_in?
+  # current_user
+  # user_session
 end
