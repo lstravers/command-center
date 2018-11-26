@@ -14,6 +14,15 @@
  *= require_self
  */
 
+ body {
+   color: #256D9E;
+ }
+
+ a {
+  color: #256D9E;
+ }
+
+
 .header {
   text-align: center;
   color: #F0F6FA;
@@ -47,10 +56,11 @@
   cursor: pointer;
   margin-left: 25%;
   margin-top: 5%;
+  margin-bottom: 3%;
 }
 
 .footer {
   text-align: center;
   color: #256D9E;
-  margin-top: 10%;
+  /* margin-top: 10%; */
 }
