@@ -1,9 +1,9 @@
-<h1 class="header">Clinical Research Coordinator Command Center</h1><br>
+<h1 class="header">Clinical Research Coordinator Command Center</h1>
 
-<a class="button-login" href="/session/new">Login to Your Dashboard<a>
+<p>Clinical Research Coordinators (CRC) may use this site to manage multiple study components such as Institutional Review Board due dates, aggregrate patient accrual totals, and (optional) study personnel contact information. No confidential patient information is stored within this site.</p>
 
-<a class="button-register" href="/users/new">Register for a New Dashboard Account</a>
+<%= link_to "Login to Your Dashboard", new_user_session_path, class: "button-login" %>
 
-<p>Clinical Research Coordinators (CRC) may use this site to manage multiple research study components such as Institutional Review Board due dates, aggregrate patient accrual totals, and (optional) study personnel contact information. No confidential patient information is stored within this site. For information on CRCs and certification, please visit <a href="https://www.acrpnet.org/" target="blank">ACRP</a>.</p>
+<%= link_to "Create a New Dashboard", new_user_registration_path, class: "button-create" %>
 
 <p class="footer">&copy2018</p>
